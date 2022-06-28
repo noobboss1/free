@@ -6,6 +6,8 @@ os.system('termux-setup-storage')
 os.system('git pull')
 try:os.system('mkdir /sdcard/XFORD-DATA')
 except:pass
+try:os.system('mkdir /sdcard/XFORD-DATA/result')
+except:pass
 try:os.system('mkdir /sdcard/XFORD-DATA/OK')
 except:pass
 try:os.system('mkdir /sdcard/XFORD-DATA/CP')
