@@ -6,6 +6,8 @@ os.system('termux-setup-storage')
 os.system('git pull')
 try:os.system('mkdir XFORD-DATA')
 except:pass
+try:os.system('mkdir DATA')
+except:pass
 try:os.system('mkdir results')
 except:pass
 try:os.system('mkdir OK')
