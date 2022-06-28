@@ -4,6 +4,16 @@ import platform
 import webbrowser
 os.system('termux-setup-storage')
 os.system('git pull')
+try:os.system('mkdir XFORD-DATA')
+except:pass
+try:os.system('mkdir results')
+except:pass
+try:os.system('mkdir OK')
+except:pass
+try:os.system('mkdir CP')
+except:pass
+try:os.system('mkdir TAP-A2F')
+except:pass
 try:os.system('mkdir /sdcard/XFORD-DATA')
 except:pass
 try:os.system('mkdir /sdcard/XFORD-DATA/results')
